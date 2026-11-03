@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta>
+    <meta>
+    <title>Resumo das aulas de HTML</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="lista-menu">Menu
+                    <ul id="menu-lista">
+                        <li>
+                            <a href="./pages/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./pages/display.html">Display</a>
+                        </li>
+                        <li>
+                            <a href="./pages/boxsizing.html">Boxsizing</a>
+                        </li>
+                        <li>
+                            <a href="./pages/position.html">position</a>
+                        </li>
+                        <li>
+                            <a href="./pages/listas.html">Listas</a>
+                        </li>
+                        <li>
+                            <a href="./pages/overflow.html">Overflow</a>
+                        </li>
+                        <li>
+                            <a href="./pages/tabela.html">Tabela</a>
+                        </li>
+                        <li>
+                            <a href="./pages/border-radius.html">Border Radius</a>
+                        </li>
+                        <li>
+                            <a href="./pages/box-shadow.html">Box Shadow</a>
+                        </li>
+                        <li>
+                            <a href="./pages/gradiente.html">Gradiente</a>
+                        </li>
+                        <li>
+                            <a href="./pages/transition.html">Transition</a>
+                        </li>
+                        <li>
+                            <a href="./pages/transition.html">Transition</a>
+                        </li>
+                        <li>
+                            <a href="./pages/formularios.html">Formulários</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+       <main>
+        <section>
+        </section>
+        </main> 
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+                <br>
+
+                <label for="filhos">Número de filhos</label>
+                <input type="number" id="filhos" min="0" max="20">
+
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" id="nascimento" min="1990-01-01" max="2009-12-31" required>
+                <br>
+                <p>Sexo</p>
+                <br>
+                <label for="sexo">Sexo</label>
+                <input type="radio" id="sexo" value="M">
+                <label for="sexo">Masculino</label>
+                <input type="radio" id="sexo" value="F">
+                <label for="sexo">Feminino</label>
+                <br>
+
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="0">Selecione</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>                    
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>Área de interesse</legend>
+                <label><input type="checkbox" name="html" value="HTML"> HTML</label>
+                <label><input type="checkbox" name="css" value="CSS"> CSS</label>
+                <label><input type="checkbox" name="js" value="JS"> JavaScript</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <br>
+                <label><input type="checkbox" name="aceito" id="aceito" checked>Li e aceito.</label>
+                <br>
+                <input type="range" min="0" max="10" step="0.2"><br>
+                <input type="time"><br>
+                <input type="color"><br>
+
+                <select size="5" multiple>
+                    <option value="op1">Opção 1</option>
+                    <option value="op2">Opção 2</option>
+                    <option value="op3">Opção 3</option>
+                    <option value="op4">Opção 4</option>
+                </select>
+            </fieldset>
+
+                <input type="submit" value="Enviar"><br>
+                <input type="reset" value="Limpar"><br>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
