@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+    font-family: 'Thankfull Script';
+    src: url(Minecraft.tff)
+}
+
+.texto-um{
+    font-family: 'Roboto';
+}
+
+.texto-dois{
+    font-family: 'Montserrat';
+}
+
+.texto-tres{
+    font-family: 'Minecraft';
+    
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul:hover{
+    height: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px ;
+
+    text-align: center;
+
+    background-color:crimson;
+
+    border-radius: 15px;
+}
+
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+    transition: width 0.5s;
+}
+
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
+}
